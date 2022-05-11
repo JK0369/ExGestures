@@ -13,6 +13,9 @@
 		C668A937282B89DD003B772A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C668A935282B89DD003B772A /* Main.storyboard */; };
 		C668A939282B89DF003B772A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C668A938282B89DF003B772A /* Assets.xcassets */; };
 		C668A93C282B89DF003B772A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C668A93A282B89DF003B772A /* LaunchScreen.storyboard */; };
+		C668A946282B8EFF003B772A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668A945282B8EFF003B772A /* Mock.swift */; };
+		C668A94A282BA04C003B772A /* Comparable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668A949282BA04C003B772A /* Comparable+Extension.swift */; };
+		C668A94C282BAE15003B772A /* RightToLeftSwipeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668A94B282BAE15003B772A /* RightToLeftSwipeGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C668A938282B89DF003B772A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C668A93B282B89DF003B772A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C668A93D282B89DF003B772A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C668A945282B8EFF003B772A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		C668A949282BA04C003B772A /* Comparable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+Extension.swift"; sourceTree = "<group>"; };
+		C668A94B282BAE15003B772A /* RightToLeftSwipeGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftSwipeGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C668A92F282B89DD003B772A /* AppDelegate.swift */,
 				C668A931282B89DD003B772A /* SceneDelegate.swift */,
 				C668A933282B89DD003B772A /* ViewController.swift */,
+				C668A949282BA04C003B772A /* Comparable+Extension.swift */,
+				C668A945282B8EFF003B772A /* Mock.swift */,
+				C668A94B282BAE15003B772A /* RightToLeftSwipeGestureRecognizer.swift */,
 				C668A935282B89DD003B772A /* Main.storyboard */,
 				C668A938282B89DF003B772A /* Assets.xcassets */,
 				C668A93A282B89DF003B772A /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C668A934282B89DD003B772A /* ViewController.swift in Sources */,
+				C668A946282B8EFF003B772A /* Mock.swift in Sources */,
+				C668A94C282BAE15003B772A /* RightToLeftSwipeGestureRecognizer.swift in Sources */,
 				C668A930282B89DD003B772A /* AppDelegate.swift in Sources */,
 				C668A932282B89DD003B772A /* SceneDelegate.swift in Sources */,
+				C668A94A282BA04C003B772A /* Comparable+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
